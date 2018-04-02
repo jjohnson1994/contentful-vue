@@ -1,0 +1,19 @@
+{
+  "name": "vue-contentful",
+  "version": "1.0.0",
+  "description": "Contentful Plugin for Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Contentful",
+    "CMS",
+    "Vue"
+  ],
+  "author": "James Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^5.1.3"
+  }
+}

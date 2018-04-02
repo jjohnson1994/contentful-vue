@@ -1,6 +1,6 @@
 {
   "name": "contentful-vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Contentful Plugin for Vue",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "Vue"
   ],
   "author": "James Johnson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjohnson1994/contentful-vue"
+  },
   "license": "ISC",
   "dependencies": {
     "contentful": "^5.1.3"

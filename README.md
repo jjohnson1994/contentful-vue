@@ -25,7 +25,7 @@ yarn add contentful-vue
 ## Useage
 Inside main.js
 ```javascript
-import ContentfulVue from "./ContentfulVue";
+import ContentfulVue from 'contentful-vue';
 
 Vue.use(ContentfulVue, {
   space: YOUR - SPACE,

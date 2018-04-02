@@ -1,6 +1,6 @@
 {
   "name": "contentful-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Contentful Plugin for Vue",
   "main": "index.js",
   "scripts": {

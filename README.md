@@ -23,13 +23,14 @@ yarn add contentful-vue
 ```
 
 ## Useage
-Inside main.js
+Inside main.js.  If you don't declare an environment ID, it will default to `master`.
 ```javascript
 import ContentfulVue from 'contentful-vue';
 
 Vue.use(ContentfulVue, {
   space: YOUR - SPACE,
-  accessToken: YOUR - ACCESS - TOKEN
+  accessToken: YOUR - ACCESS - TOKEN,
+  environment: YOUR - ENVIRONMENT - ID
 });
 ```
 Now inside any Vue component you can `this.$contentful` to access the Contentful API.

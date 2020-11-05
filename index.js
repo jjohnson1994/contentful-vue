@@ -7,6 +7,7 @@ const ContentfulVue = {
     client = Contentful.createClient({
       space: options.space,
       accessToken: options.accessToken,
+      environment: options.environment || 'master',
     });
 
     Vue.prototype.$contentful = client;
